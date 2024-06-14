@@ -1,0 +1,13 @@
+console.log(
+  "In this program we will learn that javascrpit allows to difine same variable with different values in diff blocks",);
+
+var a = 67; //numbers
+console.log(a);
+a = "naamka_engineer"; // string
+console.log(a);
+
+//rules
+//letters ,digits,underscores & $ sign allowed
+//must begin with a $, _ or a letter
+//javascript reserved words cannot be used as a variable name
+//case sensitive
