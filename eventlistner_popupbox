@@ -1,0 +1,40 @@
+// open vs code and create file index.html and paste below code and understand js
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      
+        function first(){
+            console.log("Hey ash You can do it"); //created function first and it will print hey ash... 
+        }
+        let b = {
+            r:77, //if you want to print only r then you can type b.r and it will print r value
+            m:78,
+            funn: function (number) {
+                console.log("The number is " + number); //it will print string and number you give
+            }
+        }
+        //in this section you will learn about event listners
+        document.addEventListener("click",function click(){  // created click name function 
+            console.log("clicked"); // it will print clicked in console
+            alert("hello"); //it will display output on browser as hello in pop up window
+        })
+        document.addEventListener("click", function aler(){ // created aler name function
+            console.log("aler"); // it will print aler on console
+            let clos = confirm("Are you sure?"); // it will display pop up of are you sure on screen and in backend it will display boolean value that is if user click on yes then it will display TRUE or False
+            console.log(clos); 
+        })
+    </script>
+</head>
+<body>
+   <h1>
+    Im learning js
+   </h1>
+    
+    
+</body>
+</html>
