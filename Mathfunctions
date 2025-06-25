@@ -1,0 +1,52 @@
+//round method
+console.log(Math.round(10.6));
+output will be 11 
+
+//ceil
+console.log(Math.ceil(10.1));
+output: 11
+
+//floor
+console.log(Math.floor(10.8));
+output: 10
+
+//trunc remove the decimal part
+console.log(Math.trunc(18.91));
+output: 18
+
+//power
+console.log(Math.pow(2,5));
+output:2*5 = 32
+
+//square root
+console.log(Math.sqrt(16));
+output: 4
+
+//cube root
+console.log(Math.cbrt(27));
+output:3
+
+//Math.abs() is used to get the absolute value of a number — that is, it removes any negative sign.
+console.log(Math.abs(-10));
+output:10
+
+//Math.max() returns the largest number from a list of values
+console.log(Math.max(10, 5, 20, 8));
+output:20
+
+//Math.min() returns the smallest number from a list of values
+console.log(Math.max(10, 5, 20, 8));
+output:5
+
+//Math.random() is used to generate a random floating-point number between 0 (inclusive) and 1 (exclusive).
+const n = 10;
+const random = Math.random() * n;
+console.log(random);  // 0 <= result < 10
+
+//toFixed() is used to format a number to a specific number of decimal places, and it returns the result as a string.
+let num = 5.6789;
+
+console.log(num.toFixed(2));  // "5.68"
+console.log(num.toFixed(0));  // "6"
+console.log(num.toFixed(3));  // "5.679"
+
