@@ -3,4 +3,8 @@
 // --
 
 //++ one is POST increment and another is PRE increment
+
+//in post increment first we use theme and later change them for example
+// dhaba -> we go there eat first and then ->pay
+//and vice vs pre increment
 //-- one is POST increment and another is PRE increment
