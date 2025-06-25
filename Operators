@@ -64,3 +64,10 @@ let a = 7369
 console.log(a%10);
 //it will print 9 
 
+//similarly when we use divide operator it removes last digit from number 
+
+let a = 4567;
+
+console.log(Math.floor(a/10));
+// it will print 456
+
