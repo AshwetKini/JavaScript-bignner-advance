@@ -55,3 +55,12 @@ let a=7;
 let b=2;
 
 console.log(a%b);
+
+//simply keep this logic in your mind if you want to print last digit or any digit of numbers just do a%10..
+//for example
+
+let a = 7369
+
+console.log(a%10);
+//it will print 9 
+
