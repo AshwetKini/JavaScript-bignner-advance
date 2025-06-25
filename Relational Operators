@@ -1,0 +1,33 @@
+//there are many relational operators 
+> //greater than 
+< //less
+<= //less equals
+>= // greator equals
+!= //not equals
+= //equals means you are assigning the vaalue
+== //double equals check the values from left and right side which are same or not 
+=== // triple equals to double equals but always use triple equals see the example below
+
+//relational operators it will give result true or false
+// example
+
+console.log (10>5);
+output : true
+
+//  js != to this we called not-strict equals and !== strict equals  
+//alwasy use !== strict version
+
+//here is the tricky thing you must understand
+
+console.log (10!==10);
+output: false
+
+//double and triple equals eg
+
+console.log (13==13); // it will print true 
+console.log (13=="13"); // similarly we will pass string STILL it will print TRUE
+//that is why we should use triple equals
+console.log (13==="13"); 
+output : FALSE
+
+
