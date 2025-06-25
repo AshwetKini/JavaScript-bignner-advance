@@ -1,0 +1,18 @@
+//swap 2 variables values in basic to advanced way 
+
+let a=10;
+let b=20;
+
+a=a+b; // a becomes 30
+b=a-b; // b becomes 10
+a=a-b; // a becomes 20
+console.log(a,b);
+
+// another method 
+
+let a=10;
+let b=20;
+
+[a,b]=[b,a]
+
+console.log(a,b);
