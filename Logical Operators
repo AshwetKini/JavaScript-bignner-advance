@@ -1,0 +1,25 @@
+//Logical operators use when we need to check multiple conditions
+// && And operater
+// || or operater
+
+//example
+
+console.log (10>9 && 8<9);
+output: true
+
+//explanation
+console.log (10<9 && 8<9 && 18>9);
+Output: false
+
+//here if the first condition gets false then it didnt check next condtions
+//becauss && what says each and every conditions should be true
+
+//now lets move to or || operator
+
+console.log (10<9 || 15<9 || 17>9);
+output: true
+//here what is happening in first step that is 10<9 here statment becomes false in next 15<9 also statment becomes false but
+// when it reach to 17>9 here we get true so answer becomes true
+//explanation
+// in this case even one statment becomes true then everything becomes true and even first stament becomes true then no need to check other statments
+
