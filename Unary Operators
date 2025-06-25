@@ -8,3 +8,37 @@
 // dhaba -> we go there eat first and then ->pay
 //and vice vs pre increment
 //-- one is POST increment and another is PRE increment
+
+//example
+
+let i =11;
+i= i++ + ++i;
+
+console.log(i);
+output: 24
+
+//explanation
+// first i is 11
+//i++ + ++i; means 11 + 2+11 = 11+13 = 24
+
+Q.2 use chatgpt for explanation
+let a =11;
+let b = 22;
+let c= a+b+a++ + b++ + ++a + ++b;
+
+console.log("a=" + a);
+console.log("b=" + b);
+console.log("c=" + c);
+
+Output: a=13
+b=24
+c=103
+
+Q.3
+let a =true;//in js true is 1 
+a++
+console.log(a);
+
+output: 2
+
+
