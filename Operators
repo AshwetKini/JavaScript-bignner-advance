@@ -41,3 +41,10 @@ console.log(x<y && x==5)
 console.log(x>y || x==5)
 console.log(!false)
 console.log(!true) 
+
+//while division always use Math.floor to get value in integer
+
+let a = 12;
+let b = 5;
+
+console.log(Math.floor(12/5));
